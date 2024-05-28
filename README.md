@@ -24,7 +24,7 @@ após isso digite:
 
  agora que você criou o usuário e o banco de dados precisa criar uma nova tabela com as colunas e atribuições, para isso digite os seguintes comandos:
 
- `CREATE TABLE registro(id INT AUTO_INCREMENT PRIMARY KEY, aluno varchar(50), sobrenome(50), nota FLOAT);`
+ `CREATE TABLE registro(id INT AUTO_INCREMENT PRIMARY KEY, aluno varchar(50), sobrenome varchar(50), nota FLOAT);`
 
 
  a configuração do ambiente do MYSQL está completa, agora precisamos modificar no código `SQL_connection.py` algumas coisas.
@@ -36,7 +36,7 @@ repare que nas funções `insert_table()`, `select_table()` e `delete_table()` p
 
 esses são os argumentos que você precisa modificar em cada função com os dados que você usou durante a criação e edição do banco de dados. 
 
-exemplo de como você deve botar seus dados na linha de código:
+exemplo de como você deve botar suas informações na linha de código:
 
 `cnx = mysql.connector.connect(user='teste', password='teste123', database='sua_database')`
 
