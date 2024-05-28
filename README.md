@@ -29,7 +29,7 @@ após isso digite:
 
  a configuração do ambiente do MYSQL está completa, agora precisamos modificar no código `SQL_connection.py` algumas coisas.
 
-repare que nas funções `insert_table()`, `select_table()` e `delete_table()` possui esses 3 argumentos:
+repare que nas funções `insert_table()`, `select_table()` e `delete_table()` a variável `cnx` possui esses 3 argumentos:
 * `user='###'`
 * `password='###'`
 * `database='###'`
