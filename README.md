@@ -22,7 +22,7 @@ após isso digite:
 
 `CREATE DATABASE escolha_nome`
 
- agora que você criou o usuário e o banco de dados precisa criar uma nova tabela com as colunas e atribuições, para isso digite os seguintes comandos:
+ agora que você criou o usuário e o banco de dados, precisa criar uma nova tabela com as colunas e atribuições, para isso digite os seguintes comandos:
 
  `CREATE TABLE registro(id INT AUTO_INCREMENT PRIMARY KEY, aluno varchar(50), sobrenome varchar(50), nota FLOAT);`
 
